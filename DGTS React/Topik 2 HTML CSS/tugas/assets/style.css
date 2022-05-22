@@ -253,6 +253,94 @@ body {
     width: 300px;
 }
 
+#contact {
+    background-color: goldenrod;
+}
+
+.contact-title {
+    text-align: center;
+    font-size: 40px;
+    font-style: italic;
+    color: aliceblue;
+}
+
+.contact-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.contact-info {
+    padding: 20px;
+    margin: 20px;
+}
+
+.contact-content-text {
+    text-align: center;
+}
+
+.contact-content-content {
+    margin: 20px;
+}
+
+.contact-content-text-title {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: x-large;
+}
+
+.contact-content-text-footer {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.contact-content-text-footer a {
+    font-size: larger;
+    text-decoration: none;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.contact-content-text-footer a:hover {
+    color: blue;
+}
+
+.form input[type=text] {
+    border: 2px solid rgba(0, 0, 0, 0.267);
+    background-color: rgba(0, 68, 255, 0);
+    border-radius: 4px;
+    padding: 10px;
+    color: aliceblue;
+}
+
+.form textarea {
+    border: 2px solid rgba(0, 0, 0, 0.267);
+    background-color: rgba(0, 68, 255, 0);
+    color: aliceblue;
+    border-radius: 4px;
+}
+
+.form-group {
+    margin: 10px;
+}
+.form-group .btn{
+    width: 80px;
+    float: right;
+    background-color: rgba(0, 0, 0, 0.267);
+    border: 2px solid rgba(0, 0, 0, 0.267);
+    color: aliceblue;
+    border-radius: 4px;
+    padding: 10px;
+    cursor: pointer;
+}
+.form-group .btn:hover {
+    background-color: rgba(250, 144, 6, 0.267);
+    border: 2px solid rgba(238, 255, 0, 0.267);
+    color: rgb(0, 0, 255);
+    border-radius: 4px;
+    padding: 10px;
+    cursor: pointer;
+}
+
 .footer {
     background-color: black;
     color: aliceblue;
