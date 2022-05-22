@@ -1,27 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8"/>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Portofolio</title>
+    <style>
+        .container {
+            display: flex;
+            flex-direction: row;
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .header h1 {
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background-color: bisque;
+        }
+
+        .sidebar {
+            width: 30%;
+            background-color: #aaa8a8;
+            display: flex;
+            flex-direction: column;
+            font-size: larger;
+        }
+
+        .content {
+            margin: 20px;
+            width: 70%;
+        }
+
+        .content img{
+            width: 250px;
+        }
+
+        .footer {
+            height: 50px;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            background-color: black;
+            color: aliceblue;
+        }
+    </style>
 </head>
+
 <body>
-<div>
-    <h1>My Portofolio</h1>
-</div>
-<div class="left">
-    <ol>
-        <li>Github</li>
-        <li>Facebook</li>
-        <li>Linked</li>
-    </ol>
-</div>
-<div class="center">
-    <h1>Center</h1>
-</div>
-<div class="right">
-    <h1>Right</h1>
-</div>
+    <div class="header">
+        <h1>My Portofolio</h1>
+    </div>
+    <div class="container">
+        <div class="sidebar">
+            <ol>
+                <li>Github</li>
+                <li>Facebook</li>
+                <li>Linked</li>
+            </ol>
+        </div>
+        <div class="content">
+            <h1>Lorem, ipsum.</h1>
+            <div>
+                <img src="https://avatars.githubusercontent.com/u/49233072?v=4" alt="profile github eko cahyanto">
+            </div>
+            <div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui debitis maxime accusamus dignissimos
+                    temporibus. Velit expedita dolorum vitae repudiandae reprehenderit ullam, vel eos, consectetur
+                    commodi incidunt eveniet quos minima illo.</p>
+            </div>
+            <div>
+                <iframe width="450" height="350" src="https://www.youtube.com/embed/Q7U1WAG-KNg"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <p>Copyright &copy; 2022</p>
+    </div>
 </body>
+
 </html>
